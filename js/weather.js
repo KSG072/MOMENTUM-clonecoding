@@ -13,6 +13,7 @@ function onGeoOk(position) {
 
         weatherContainer.innerText = `${data.weather[0].main} / ${data.main.temp}°C`;
         cityContainer.innerText = `\n @ ${data.name}`;
+        document.querySelector("#weather").classList.remove("hidden");
     }));
 }
 function onGeoError() {

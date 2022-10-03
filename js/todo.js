@@ -6,8 +6,18 @@ const toDoList = document.querySelector("#todo-list");
 
 let todos = [];
 
+function checkBox(){
+    if(todos.length > 0) {
+        toDoList.classList.remove("hidden");
+    }
+    else {
+        toDoList.classList.add("hidden");
+    }
+}
+
 function saveTodoList() {
     localStorage.setItem(TODO_KEY, JSON.stringify(todos));
+    checkBox();
 }
 
 function paintTodos(todo) {
@@ -56,3 +66,4 @@ if(savedTodos !== null){
     });
     todos = savedTodos;
 }
+checkBox();
