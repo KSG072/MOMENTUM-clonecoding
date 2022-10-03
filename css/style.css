@@ -1,0 +1,129 @@
+.hidden{
+    display: none;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1, h2, form, input, button, div, span, ul, li{
+    z-index: 1;
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+}
+
+#login-form {
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 3pt;
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    vertical-align: middle;
+}
+#login-form input{
+    color: antiquewhite;
+    font-size: 35px;
+    min-width: 100%;
+    min-height: 50px;
+    vertical-align: middle;
+}
+#login-form button{
+    padding: 0%; margin: 0%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+input{
+    border-width: 0px 0px 5px 0px;
+    border-color: aliceblue;
+    text-align: center;
+}
+#login-form input::placeholder{
+    color: antiquewhite;
+    font-size: 35px;
+}
+
+#greeting{
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 3pt;
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    vertical-align: middle;
+}
+
+h2{
+    text-shadow: 3pt;
+    font-size: 80px;
+    color: aliceblue;
+    width: fit-content;
+    position: fixed;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+#quote {
+    position: absolute;
+    text-align: center;
+    width: max-content;
+    bottom: 3px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    color: bisque;
+}
+
+#weather {
+    position: fixed;
+    text-align: right;
+    right: 1pt;
+    top: 1pt;
+    color: aliceblue;
+    margin: 3%;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: rgba(57, 47, 49, 0.6)
+}
+
+.todo {
+    text-align: center;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.todo input{
+    color: antiquewhite;
+    font-size: 20px;
+    width: 400px;
+    min-height: 40px;
+    vertical-align: middle;
+}
+.todo input::placeholder{
+    color: antiquewhite;
+}
