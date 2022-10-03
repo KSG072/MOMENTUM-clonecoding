@@ -1,3 +1,3 @@
 # MOMENTUM-clonecoding
 ---------------------------------
-<a href="ksg072.github.io">clone site link</a>
+<a href="https://ksg072.github.io/MOMENTUM-clonecoding">clone site link</a>
